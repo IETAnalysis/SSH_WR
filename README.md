@@ -4,10 +4,6 @@
 
 ## **SSH-WR Overview**
 
-In this project, we introduce **SSH-WR**, a method for detecting SSH communication within tunneled traffic. The framework works by splitting the tunneled traffic into **bursts**, small segments that represent transient network behaviors. These bursts are processed to extract relevant features and then converted into a **frequency-domain representation** to capture key traffic characteristics. This method enables precise identification of SSH traffic even within complex, tunneled environments.
-﻿
- The overall architecture of **SSH-WR** is depicted in **Fig** below:
-
 ![Overall SSH-WR Architecture](https://github.com/user-attachments/assets/1957a238-3695-4d00-bca5-3a97ad1e5746)
 
 ---
@@ -30,7 +26,6 @@ The `model.py` module defines the complete **Seq2Seq model with attention**, cen
 
 The `npy_dataloader.py` module handles the **feature extraction and data loading** process. It is responsible for:
 
-* Extracting multiple **statistical** and **signal-domain features** from packet lengths and timestamps.
 * Dynamically selecting feature combinations based on the specific experiment or task.
 * Generating and saving structured `.npy` feature arrays from raw **JSON data**.
 * Preparing PyTorch **DataLoader objects** for both training and evaluation, ensuring efficient and seamless data handling during model training.
