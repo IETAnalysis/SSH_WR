@@ -1,0 +1,6 @@
+Python>=3.6
+PyTorch>=1.9.0
+NumPy
+Pandas
+scikit-learn
+tqdm
