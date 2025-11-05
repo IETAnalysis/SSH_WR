@@ -8,7 +8,7 @@ In this project, we introduce **SSH-WR**, a method for detecting SSH communicati
 ﻿
  The overall architecture of **SSH-WR** is depicted in **Fig** below:
 
-![Overall SSH-WR Architecture](https://github.com/user-attachments/assets/8b927a6a-5f2c-4899-89e8-58a27ea9fe57)
+![Overall SSH-WR Architecture](https://github.com/user-attachments/assets/1957a238-3695-4d00-bca5-3a97ad1e5746)
 
 ---
 
