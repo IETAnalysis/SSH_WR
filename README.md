@@ -60,11 +60,11 @@ The `util.py` script provides essential **utility functions** for managing GPU m
 
 ## **Dataset**
 
-The dataset used for training and evaluation contains network packet data and can be downloaded from the following Google Drive link:
+The dataset used for training and evaluation, which can be downloaded from the following Google Drive link, is publicly available.
 
 [Download Dataset](https://drive.google.com/drive/folders/1zigriMV5VXjQu3NR7XNrKYHM6cAP2Epl?usp=sharing)
 
-The dataset consists of features such as packet lengths and timestamps, which are processed to extract relevant statistical and signal-domain features for model training.
+The dataset consists of features such as packet lengths and timestamps, which are processed to extract traffic waveformn features for model training.
 
 ---
 
