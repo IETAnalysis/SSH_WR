@@ -86,7 +86,7 @@ def main():
                                                 pkt_num=pkt_N,
                                                 beta=beta,
                                                 sample_num=sample_num,
-                                                data_save=config.data_SAVE,
+                                                data_save=config.DATA_SAVE_DIR,
                                                 combination=combination,
                                                 final_dim=final_dim)
 
