@@ -2,11 +2,7 @@
 
 ---
 
-## **SSH-WR Overview**
 
-![Overall SSH-WR Architecture](https://github.com/user-attachments/assets/1957a238-3695-4d00-bca5-3a97ad1e5746)
-
----
 
 ## **Files and Modules**
 
