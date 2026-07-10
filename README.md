@@ -1,5 +1,13 @@
 ﻿# SSH-WR: Detecting SSH Traffic in Encrypted Tunnels with Traffic Waveform Representation
 
+ ## **Dataset**
+
+The dataset used for training and evaluation, which can be downloaded from the following Google Drive link, is publicly available.
+
+[Download Dataset](https://drive.google.com/drive/folders/1zigriMV5VXjQu3NR7XNrKYHM6cAP2Epl?usp=sharing)
+
+The dataset consists of features such as packet lengths and timestamps, which are processed to extract traffic waveformn features for model training.
+
 ## Files and Modules
 
 ### `config.py`
